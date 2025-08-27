@@ -1,4 +1,4 @@
-import {Github } from "lucide-react";
+import {ArrowRight, ExternalLink,Github } from "lucide-react";
 
 const projects = [
   {
@@ -7,6 +7,7 @@ const projects = [
     description: "A simple professional web page style using Html, Css and Javascript.",
     image: "/projects/website.PNG",
     tags: ["Html", "Css", "Javascript"],
+    demoUrl: "#",
     githubUrl: "https://keletso-kgosienngwe.github.io/BuffClanCapital-Web/",
   },
   {
@@ -16,6 +17,7 @@ const projects = [
       "Developed an interactive Tableau dashboard connected to a SQL database for querying, data extraction, and visualization. ",
     image: "/projects/Tableau.png",
     tags: ["Tableau", ],
+    demoUrl: "#",
     githubUrl: "https://public.tableau.com/app/profile/keletso.kgosienngwe/viz/LoanDashboard_17520121460960/SUMMARY",
   },
   {
@@ -25,6 +27,7 @@ const projects = [
       "Designed an interactive Power BI dashboard to analyze sales trends, product performance, and outlet effectiveness, supporting inventory management, customer targeting, and KPI-driven decision-making",
     image: "/projects/Powerbi.png",
     tags: ["Powerbi"],
+    demoUrl: "#",
     githubUrl: "https://github.com/Keletso-Kgosienngwe/Blinkit-Dasboard/blob/main/Dashboard-main/Dashboard.pdf",
   },
 ];
