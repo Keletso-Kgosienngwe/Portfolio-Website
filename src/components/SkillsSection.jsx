@@ -3,32 +3,32 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 85, category: "frontend" },
-  { name: "JavaScript", level: 70, category: "frontend" },
-  { name: "React", level: 60, category: "frontend" },
-  { name: "TypeScript", level: 60, category: "frontend" },
-  { name: "Tailwind CSS", level: 60, category: "frontend" },
-  { name: "Next.js", level: 60, category: "frontend" },
+  { name: "HTML/CSS", level: 95, category: "frontend" },
+  { name: "JavaScript", level: 90, category: "frontend" },
+  { name: "React", level: 90, category: "frontend" },
+  { name: "TypeScript", level: 90, category: "frontend" },
+  { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "Next.js", level: 90, category: "frontend" },
 
   // Backend
-  { name: "Python", level: 80, category: "backend" },
-  { name: "Java", level: 60, category: "backend" },
-  { name: "C#", level: 60, category: "backend" },
-  { name: "PHP", level: 65, category: "backend" },
-  { name: "R programming", level: 75, category: "backend" },
+  { name: "Python", level: 90, category: "backend" },
+  { name: "Java", level: 90, category: "backend" },
+  { name: "C#", level: 90, category: "backend" },
+  { name: "PHP", level: 95, category: "backend" },
+  { name: "R programming", level: 95, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "Power Bi", level: 90, category: "tools" },
-  { name: "Tableau", level: 85, category: "tools" },
+  { name: "Tableau", level: 90, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Microsoft tools", level: 95, category: "tools" },
 
   //Databases
   { name: "Oracle", level: 90, category: "databases" },
-  { name: "SQL Server", level: 70, category: "databases" },
-  { name: "MongoDB", level: 70, category: "databases" },
-  { name: "MYSQL", level: 70, category: "databases" },
+  { name: "SQL Server", level: 90, category: "databases" },
+  { name: "MongoDB", level: 90, category: "databases" },
+  { name: "MYSQL", level: 90, category: "databases" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "databases"];
