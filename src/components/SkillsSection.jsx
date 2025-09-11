@@ -24,7 +24,7 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Microsoft tools", level: 95, category: "tools" },
 
-  //Databases
+  // Databases
   { name: "Oracle", level: 90, category: "databases" },
   { name: "SQL Server", level: 90, category: "databases" },
   { name: "MongoDB", level: 90, category: "databases" },
@@ -39,6 +39,7 @@ export const SkillsSection = () => {
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory
   );
+
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -70,7 +71,7 @@ export const SkillsSection = () => {
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >
               <div className="text-left mb-4">
-                <h3 className="font-semibold text-lg"> {skill.name}</h3>
+                <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
@@ -78,6 +79,7 @@ export const SkillsSection = () => {
                   style={{ width: skill.level + "%" }}
                 />
               </div>
+            </div>
           ))}
         </div>
       </div>
