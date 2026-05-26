@@ -21,8 +21,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-       Im a recent grauduate with a a BSc (Hons) in Business Intelligence and Data Analytics from Botswana  
-Accountancy College.Have a strong foundation
+       Im a recent grauduate with a BSc (Hons) in Business Intelligence and Data Analytics from Botswana  
+Accountancy College. I have a strong foundation
 in data analysis, visualization, and reporting using tools like Power BI, Python,R programmming
 SQL and web technologies such as html, css, javascript & java.
           </p>
